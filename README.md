@@ -19,7 +19,7 @@ disp(u,v)  = ((float)I(u,v))/256.0;
 
 ## Error
 
-###The error in Stereo-stereo fusion:
+### The error in Stereo-stereo fusion:
 SGM [1]    (input1): 22.38 pixels;
 
 PSMNet [2] (input2): 1.22 pixels;
@@ -27,7 +27,7 @@ PSMNet [2] (input2): 1.22 pixels;
 Ours:                0.87 pixels;
 
 
-###The error in Stereo-lidar fusion:
+### The error in Stereo-lidar fusion:
 PSMNet [2] (input2): 1.22 pixels;
 
 Ours:                0.95 pixels;
