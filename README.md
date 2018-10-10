@@ -6,11 +6,13 @@ We will release our code and pretrained model here in the futrue after our paper
 
 ## Introduction
 
-We used 100 samples from ‘000000 10.png’ to ‘000099 10.png’ in the initial training dataset as our test dataset. Our refined disparity maps (1.png - 100.png) corresponde to the images (‘000000 10.png’ - ‘000099 10.png’) in the folder "Our_result_in_stereo_stereo_fusion" and "Our_result_in_stereo_lidar_fusion",. 
+We used 100 samples from ‘000000 10.png’ to ‘000099 10.png’ in the initial training dataset as our test dataset. 
 
+Visualization images (1.png - 100.png) corresponde to the images (‘000000 10.png’ - ‘000099 10.png’) in the folder "Visualization_stereo_stereo_fusion" and "Visualization_stereo_lidar_fusion". 
+
+Our refined disparity maps (1.png - 100.png) corresponde to the images (‘000000 10.png’ - ‘000099 10.png’) in the folder "Our_result_in_stereo_stereo_fusion" and "Our_result_in_stereo_lidar_fusion". 
 
 ## Data format:
-============
 
 Disparity values range (0..256). Disparity maps are saved as uint16 PNG images. A 0 value indicates an invalid pixel (ie, no
 ground truth exists, or the estimation algorithm didn't produce an estimate for that pixel). Otherwise, the disparity for a pixel can be computed by converting the uint16 value to float and dividing it by 256.0:
@@ -28,7 +30,7 @@ Ours:                0.87 pixels;
 
 
 ### The error in Stereo-lidar fusion:
-PSMNet [2] (input2): 1.22 pixels;
+PSMNet [2] (input1): 1.22 pixels;
 
 Ours:                0.95 pixels;
 
