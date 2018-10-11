@@ -32,7 +32,7 @@ Ours:                0.87 pixels;
 ### The error in Stereo-lidar fusion:
 PSMNet [2] (input1): 1.22 pixels;
 
-Ours:                0.95 pixels;
+Ours:                0.86 pixels;
 
 
 ## Reference
