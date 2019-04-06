@@ -5,11 +5,11 @@ This repository contains the experiment results for (UDFNet: Unsupervised Dispar
 
 ## Introduction
 
-50 samples from ‘000000_10.png’ to ‘000049_10.png’ in the Kitti2015 training dataset were used as our test dataset. 50 samples from ‘000050_10.png’ to ‘000099_10.png’ in the Kitti2015 training dataset were used as our validation dataset
+50 samples from ‘000000_10.png’ to ‘000049_10.png’ in the Kitti2015 training dataset were used as our test dataset. 50 samples from ‘000050_10.png’ to ‘000099_10.png’ in the Kitti2015 training dataset were used as our validation dataset. The rest were used as our training dataset.
 
-Visualization images (1.png - 100.png) corresponde to the images (‘000000 10.png’ - ‘000099 10.png’) in the folder "Visualization_stereo_stereo_fusion" and "Visualization_stereo_lidar_fusion". 
+Visualization images (1.png - 100.png) corresponde to the images (‘000000_10.png’ - ‘000099_10.png’) in the folder "Visualization_stereo_stereo_fusion" and "Visualization_stereo_lidar_fusion". 
 
-Our refined disparity maps (1.png - 100.png) corresponde to the images (‘000000 10.png’ - ‘000099 10.png’) in the folder "Our_result_in_stereo_stereo_fusion" and "Our_result_in_stereo_lidar_fusion". 
+Our refined disparity maps (1.png - 100.png) corresponde to the images (‘000000_10.png’ - ‘000099_10.png’) in the folder "Our_result_in_stereo_stereo_fusion" and "Our_result_in_stereo_lidar_fusion". 
 
 ## Data format:
 
