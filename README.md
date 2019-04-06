@@ -5,7 +5,7 @@ This repository contains the experiment results for (UDFNet: Unsupervised Dispar
 
 ## Introduction
 
-50 samples from ‘000000_10.png’ to ‘000049_10.png’ were used in the Kitti2015 training dataset as our test dataset. 50 samples from ‘000000_50.png’ to ‘000099_10.png’ in the Kitti2015 training dataset were used as our validation dataset
+50 samples from ‘000000_10.png’ to ‘000049_10.png’ in the Kitti2015 training dataset were used as our test dataset. 50 samples from ‘000000_50.png’ to ‘000099_10.png’ in the Kitti2015 training dataset were used as our validation dataset
 
 Visualization images (1.png - 100.png) corresponde to the images (‘000000 10.png’ - ‘000099 10.png’) in the folder "Visualization_stereo_stereo_fusion" and "Visualization_stereo_lidar_fusion". 
 
